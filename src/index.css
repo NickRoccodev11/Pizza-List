@@ -58,3 +58,7 @@ form>input {
   padding: 0 20px 20px 10px;
   list-style: none;
 }
+
+.hover-message {
+  color: rgb(63, 63, 133)
+}
