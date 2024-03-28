@@ -1,0 +1,60 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: rgb(24, 24, 86);
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(84, 84, 120);
+}
+
+
+#form-list-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.pizza-list {
+  background-color: rgb(197, 236, 236);
+  padding: 20px;
+}
+
+.list-title {
+  color: rgb(41, 65, 121);
+}
+
+form {
+  background-color: rgb(116, 116, 199);
+  padding: 20px;
+  color: rgba(14, 14, 101, 0.73);
+  font-weight: 600;
+  font-size: larger;
+}
+
+form>button {
+  background-color: rgb(183, 183, 228);
+  box-shadow: 5px 5px 5px rgb(4, 4, 161);
+}
+
+form>input {
+  margin-bottom: 5px;
+}
+
+.display {
+  background-color: rgb(126, 195, 213);
+  padding: 20px;
+  width: 422px;
+  margin: 10px 40% 0 10%;
+}
+
+.displayed-name {
+  color: rgb(24, 24, 169);
+  font-size: x-large;
+}
+
+.ingredients-list {
+  background-color: rgb(180, 205, 228);
+  padding: 0 20px 20px 10px;
+  list-style: none;
+}
